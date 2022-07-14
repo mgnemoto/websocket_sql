@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Sockets</title>
+    <script src="/socket.io/socket.io.js"></script>
+    
+</head>
+<body>
+    
+    <!-- <input type="text" id="texto">
+    <button id="enviar">Enviar</button> -->
+
+
+    <!-- <p id="mensajeRecibido"></p> -->
+    <form>
+        <div class="m-2">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" name="nombre" id="nombre" class="form-control w-50">
+        </div>
+        <div class="m-2">
+            <label for="precio" class="form-label">Precio</label>
+            <input type="number" name="precio" id="precio" class="form-control w-50">
+        </div>
+        <div class="m-2">
+            <label for="foto" class="form-label">Foto</label>
+            <input type="text" name="foto" id="foto" class="form-control w-50">
+        </div>
+        <button type="submit" class="btn btn-success m-2" id="enviar">Enviar</button>
+    </form>
+
+    <table id="listaItems" class="table">
+
+    </table>
+
+
+
+
+
+    <script src="/index.js"></script>
+</body>
+</html>
