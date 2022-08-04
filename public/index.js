@@ -22,7 +22,7 @@ document.getElementById("enviar").addEventListener('click', (e)=>{
 socket.on('mensajes', (data) =>{
     console.log(data);
     let html = "";
-    data.forEach(producto =>{
+    data.forEach((producto) =>{
         html += `
         <tr class="table-dark">
         <td>${producto.nombre}</td>
